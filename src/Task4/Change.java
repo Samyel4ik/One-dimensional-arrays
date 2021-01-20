@@ -20,7 +20,9 @@ public class Change {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10) - 5;
             System.out.print(array[i] + " ");            //первоночальный массив +++
+        }
 
+        for (int i = 0; i < array.length; i++) {
             if (maxNum < array[i]) {
                 maxNum = array[i];
                 indexMax = i;
@@ -39,7 +41,7 @@ public class Change {
 
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]+ " ");
-        }
 
+        }
     }
 }
