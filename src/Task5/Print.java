@@ -14,11 +14,15 @@ public class Print {
         for (int i = 0; i < a; i++) {
             array[i] = random.nextInt(10) - 5;
 
-
             if (array[i] > i) {
-                System.out.println("num" + array[i]);
+                System.out.print("Число:" + array[i] + " ");
             }
-            System.out.print(array[i]);
+        }
+        System.out.println();
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+
         }
     }
 }

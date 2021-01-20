@@ -14,9 +14,9 @@ public class Arry {
 
         Random random = new Random();
 
-        for(int i = 0 ; i < array.length ; i++) {
+        for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10) - 5;
-            System.out.println(array[i]+" ");
+            System.out.println(array[i] + " ");
 
             if (array[i] > 0) {
                 sum1++;
