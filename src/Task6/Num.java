@@ -13,7 +13,7 @@ public class Num {
 
         for (int i = 1; i < n; i++) {
             array[i] = i;
-            y=array[i]%x;
+            y = array[i] % x;
 
             if (y != 0) {
                 howMuch++;
