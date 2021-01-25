@@ -9,16 +9,13 @@ public class Zero {
         // (освободившиеся элементы заполнить нулями).
 
         int[] array = {1, 2, 3, 4, 5};
-        int index = 0;
         int t = array.length;//длинна масива
 
         System.out.println(Arrays.toString(array));
-        int[] array2 = new int[t];
 
-        for (int i = 0; i < array2.length; i++) {
-            array2[i] = 0;
+        int index = 0;
+        int array2[] = new int[t];
 
-        }
         for (int i = 0; i < array.length; i = i + 2) {
             array2[index] = array[i];
             index++;
